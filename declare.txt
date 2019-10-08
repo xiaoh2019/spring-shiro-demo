@@ -1,0 +1,14 @@
+1.shiro本质
+认证 、授权、session管理、加密、缓存、记住我、run as。
+
+shiro流程
+ 请求--->ShiroFilterFactoryBean--->Subject--->Shiro SecurityManager--->Realm
+
+ShiroFilterFactoryBean拦截器怎么知道有没有认证的呢？
+session里存的有是否认证的信息
+
+sessionDao这个功能不重要
+shiro重要的功能是三个：认证、授权、拦截以及记住我
+
+
+
